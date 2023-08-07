@@ -1,0 +1,381 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #ffffff;
+    --cor0-5: #96c2ec;
+    --cor1: #4CC7DF;
+    --cor1-5: #2c7483;
+    --cor2: #002231;
+    --cor3: #011D2E;
+    --cor4: #c43c0b;
+
+    --font-padrao: Arial, sans-serif;
+    color: var(--cor0);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    text-indent: 0px;
+    font-family: var(--font-padrao);
+}
+
+.negrito {
+    font-weight: bolder;
+}
+
+.destaque {
+    font-weight: bolder;
+    color: var(--cor4);
+}
+
+main div.container h2 {
+    font-size: 1.3em;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/*--------------------- Header --------------------------------------*/
+
+header {
+    background-color: var(--cor3);
+    height: auto;
+    padding: 0px 13px;
+}
+
+.header-container {
+    background-color: var(--cor3);
+    padding: 0px 13px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0px 35px;
+    flex-wrap: wrap;
+}
+
+.header-in-caixa1 {
+    width: 100%;
+    max-width: 410px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.header-in-caixa2 {
+    height: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-in-caixa3 {
+    padding-bottom: 30px;
+}
+
+/* _______formulário_______ */
+
+.formulario {
+    width: 100%;
+    padding: 0px;
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: flex;
+}
+
+.text-box {
+    padding: 5px;
+    border-radius: 7px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+.text-box:focus {
+    background-color: var(--cor0-5);
+}
+
+.genero {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.gen-title {
+    margin-right: 5px;
+}
+
+.genero>label {
+    padding-left: 5px;
+    padding-right: 20px;
+}
+
+/* _______formulário ends_______ */
+
+.logo {
+    max-width: 250px;
+    margin: 0px;
+    padding-top: 50px;
+    align-self: center;
+}
+
+.jones img {
+    width: 100%;
+    max-width: 450px;
+    margin: 0px;
+}
+
+.jones {
+    display: flex;
+    align-items: flex-end;
+}
+
+/*___________________________________________________________________*/
+
+/*--------------------- Bloco 1 --------------------------------------*/
+main .bloco-1 {
+    background-color: var(--cor2);
+    height: auto;
+}
+
+main .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+main .menu-caixas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .menu-imagens img {
+    height: 60px;
+    width: 60px;
+}
+
+main .menu-imagens {
+    padding: 13px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+main .destaque {
+    font-weight: bolder;
+}
+
+main .menu-textos {
+    text-align: center;
+    width: 250px;
+    height: 75px;
+    margin: 0px 13px;
+    padding: 0px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+/*___________________________________________________________________*/
+
+/*--------------------- Botão ----------------------------------------*/
+header .botao-participar {
+    align-self: center;
+}
+
+.botao-margem-1 {
+    background-color: var(--cor2);
+    height: 40px;
+    padding: 50px 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-margem-2 {
+    background-color: var(--cor3);
+    height: 40px;
+    padding: 30px 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-participar {
+    background-color: var(--cor1);
+    width: 180px;
+    padding: 7px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.botao-participar:hover {
+    background-color: #31a7be;
+    color: var(--cor0);
+    width: 180px;
+    padding: 7px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.botao-participar a {
+    color: var(--cor0);
+}
+
+.botao-participar:active {
+    background-color: #2c5c83;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+}
+
+/*____________________________________________________________________*/
+
+
+/*--------------------- Bloco 2 --------------------------------------*/
+
+div.bloco-2 {
+    background-color: var(--cor3);
+    height: auto;
+}
+
+main .caixas-b2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 0px 13px;
+}
+
+main .caixas-sombra>h1 {
+    background-color: var(--cor3);
+    color: var(--cor1);
+    position: absolute;
+    left: auto;
+    top: auto;
+    margin: 20px 30px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+main .caixas-sombra>p {
+    max-width: 300px;
+    max-height: 70px;
+    min-height: 70px;
+    padding: 20px 10px;
+    margin: 40px 0px;
+    border-radius: 10px;
+    border-color: var(--cor1);
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*___________________________________________________________________*/
+
+
+/*--------------------- Bloco 3 --------------------------------------*/
+
+div.bloco-3 {
+    background-color: var(--cor2);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main .bloco-3 img {
+    width: 100%;
+}
+
+main .bloco-3 h2 {
+    margin-bottom: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main .caixa-b3 {
+    padding: 50px 20px 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    text-align: justify;
+}
+
+main div {
+    margin-bottom: -2px;
+}
+
+main .davi img {
+    max-width: 350px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*___________________________________________________________________*/
+
+
+/*--------------------- Bloco 4 --------------------------------------*/
+
+div.bloco-4 {
+    background-color: var(--cor3);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.bloco-4 .caixa-b4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+main .caixa-b4 h1 {
+    color: var(--cor1);
+    text-align: center;
+}
+
+main .caixa-b4 p {
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+}
+
+/*___________________________________________________________________*/
+
+
+/*--------------------- Footer --------------------------------------*/
+
+footer {
+    background-color: var(--cor2);
+    padding: 10px;
+    text-align: center;
+}
