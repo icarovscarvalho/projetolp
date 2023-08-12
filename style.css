@@ -87,10 +87,6 @@ fieldset {
     border: none;
 }
 
-label {
-    display: flex;
-}
-
 .text-box {
     padding: 5px;
     border-radius: 7px;
